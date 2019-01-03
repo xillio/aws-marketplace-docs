@@ -15,7 +15,41 @@ repositories.
 ****
 
 [#server-credentials]
-== Obtain Server Credentials
+== Obtain Credentials
+
+=== What Credentials Do I Need?
+
+=== Find Xillio API Credentials
+
+There are two ways to find the generated Xillio API credentials. If you have ssh access you can get the credentials
+by <<ssh, logging in through ssh>>. If you do not have ssh access you can get the credentials <<system-logs, from the
+system logs>>.
+
+[#ssh]
+==== Method 1: Obtain Credentials Through SSH
+
+[#system-logs]
+==== Method 2: Obtain Credentials From EC2 System Logs
+
+NOTE: The system log is only available the first 12 hours after you first start the instance. It may also take up to 20
+minutes for the system logs to show up.
+
+1. Log in to the https://console.aws.amazon.com/console/home[AWS Console].
+2. Open the EC2 Dashboard in services.
++
+image::./images/open-ec2.png[]
+3. Click 'Running Instances'
++
+image::./images/open-instances.png[]
+4. Select your Xillio API instance
++
+image::./images/select-instance.png[]
+5. Open the system logs
++
+image::./images/open-log.png[]
+6. Find the credentials in the logs. They are usually around the bottom of the logs if you have just launched the instance.
++
+image::./images/read-log.png[]
 
 [#database-credentials]
 == Obtain PostgreSQL Credentials
