@@ -28,32 +28,6 @@ system logs>>.
 [#ssh]
 ==== Method 1: Obtain Credentials Through SSH
 
-[#system-logs]
-==== Method 2: Obtain Credentials From EC2 System Logs
-
-NOTE: The system log is only available the first 12 hours after you first start the instance. It may also take up to 20
-minutes for the system logs to show up.
-
-1. Log in to the https://console.aws.amazon.com/console/home[AWS Console].
-2. Open the EC2 Dashboard in services.
-+
-image::./images/open-ec2.png[align="center"]
-3. Click 'Running Instances'
-+
-image::./images/open-instances.png[align="center"]
-4. Select your Xillio API instance
-+
-image::./images/select-instance.png[align="center"]
-5. Open the system logs
-+
-image::./images/open-log.png[align="center"]
-6. Find the credentials in the logs. They are usually around the bottom of the logs if you have just launched the instance.
-+
-image::./images/read-log.png[align="center"]
-
-[#database-credentials]
-== Obtain PostgreSQL Credentials
-
 1. Find the public dns of your instance
 // TODO: Should I explain how to get public dns?
 2. Log on using the `ec2-user` username and you ssh key
@@ -105,4 +79,31 @@ jwt_secret=eLQFNU6b4sXsOUYFEyDA4ssZyVIg2tcIL3UVpbECxKtRrT6p8hovOHyNfPq
 postgresql_username=xrL9ZQU460QnY8rYs8xAUEmJUWBb7fbbasxl1rYr9SBewucexI
 postgresql_password=7eEhC0J5aY1VDt2N7Eq8GVJKMZA46jzkwQvvNbVmmecerGYnfm
 ====
+
+[#system-logs]
+==== Method 2: Obtain Credentials From EC2 System Logs
+
+NOTE: The system log is only available the first 12 hours after you first start the instance. It may also take up to 20
+minutes for the system logs to show up.
+
+1. Log in to the https://console.aws.amazon.com/console/home[AWS Console].
+2. Open the EC2 Dashboard in services.
++
+image::./images/open-ec2.png[align="center"]
+3. Click 'Running Instances'
++
+image::./images/open-instances.png[align="center"]
+4. Select your Xillio API instance
++
+image::./images/select-instance.png[align="center"]
+5. Open the system logs
++
+image::./images/open-log.png[align="center"]
+6. Find the credentials in the logs. They are usually around the bottom of the logs if you have just launched the instance.
++
+image::./images/read-log.png[align="center"]
+
+[#database-credentials]
+== Obtain PostgreSQL Credentials
+
 
