@@ -1,4 +1,22 @@
 = Xillio API on AWS Marketplace
 Xillio <support@xillio.com>
 
-PLACEHOLDER
+The Xillio API is a platform with which developers can effortlessly build integrations with all popular content
+repositories. It is designed to make developers more productive when they need to integrate content from different
+repositories.
+
+.Getting Started
+****
+
+<<server-credentials>>
+
+<<database-credentials>>
+
+****
+
+[#server-credentials]
+== Obtain Server Credentials
+
+[#database-credentials]
+== Obtain PostgreSQL Credentials
+
