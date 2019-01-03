@@ -37,20 +37,21 @@ minutes for the system logs to show up.
 1. Log in to the https://console.aws.amazon.com/console/home[AWS Console].
 2. Open the EC2 Dashboard in services.
 +
-image::./images/open-ec2.png[]
+image::./images/open-ec2.png[align="center"]
 3. Click 'Running Instances'
 +
-image::./images/open-instances.png[]
+image::./images/open-instances.png[align="center"]
 4. Select your Xillio API instance
 +
-image::./images/select-instance.png[]
+image::./images/select-instance.png[align="center"]
 5. Open the system logs
 +
-image::./images/open-log.png[]
+image::./images/open-log.png[align="center"]
 6. Find the credentials in the logs. They are usually around the bottom of the logs if you have just launched the instance.
 +
-image::./images/read-log.png[]
+image::./images/read-log.png[align="center"]
 
 [#database-credentials]
 == Obtain PostgreSQL Credentials
+
 
