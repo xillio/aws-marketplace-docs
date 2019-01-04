@@ -60,8 +60,8 @@ postgresql_username=xrL9ZQU460QnY8rYs8xAUEmJUWBb7fbbasxl1rYr9SBewucexI
 postgresql_password=7eEhC0J5aY1VDt2N7Eq8GVJKMZA46jzkwQvvNbVmmecerGYnfm
 
 ----
-5. Store the credentials in a save place.
-6. (Recommended) remove user credentials.
+5. Store the credentials in a safe place.
+6. Remove user credentials.
 +
 [source,bash]
 ----
@@ -73,7 +73,7 @@ jwt_secret=eLQFNU6b4sXsOUYFEyDA4ssZyVIg2tcIL3UVpbECxKtRrT6p8hovOHyNfPq
 postgresql_username=xrL9ZQU460QnY8rYs8xAUEmJUWBb7fbbasxl1rYr9SBewucexI
 postgresql_password=7eEhC0J5aY1VDt2N7Eq8GVJKMZA46jzkwQvvNbVmmecerGYnfm
 ----
-7. Press `ctrl+x > y > Enter` to save the changes.
+7. Press `Ctrl+X`, `Y`, and then `Enter` to save the changes.
 
 [#system-logs]
 === Method 2: Obtain Credentials From EC2 System Logs
@@ -85,13 +85,13 @@ minutes for the system logs to show up.
 2. Open the EC2 Dashboard in services.
 +
 image::./images/open-ec2.png[align="center"]
-3. Click 'Running Instances'
+3. Click 'Running Instances'.
 +
 image::./images/open-instances.png[align="center"]
-4. Select your Xillio API instance
+4. Select your Xillio API instance.
 +
 image::./images/select-instance.png[align="center"]
-5. Open the system logs
+5. Open the system logs from the actions menu.
 +
 image::./images/open-log.png[align="center"]
 6. Find the credentials in the logs. They are usually around the bottom of the logs if you have just launched the instance.
