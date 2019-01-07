@@ -12,6 +12,8 @@ repositories.
 
 ****
 
+:leveloffset: +1
+
 include::./obtain-credentials.adoc[]
 
-include::./license-agreement.adoc[]
+:leveloffset: -1
