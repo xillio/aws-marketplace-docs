@@ -1,3 +1,2 @@
 [#license-agreement]
 = License Agreement
-

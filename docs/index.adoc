@@ -14,4 +14,8 @@ repositories.
 
 include::./obtain-credentials.adoc[]
 
+<<<<<<< HEAD
 include::./license-agreement.adoc[]
+=======
+
+>>>>>>> a995d35f7a14a5eb5bc6b4862d76d06d167d3599
